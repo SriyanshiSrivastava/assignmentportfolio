@@ -1,0 +1,37 @@
+body {
+  background-color: rosybrown; /* Setting background color for the whole page */
+  font-size: 1.2rem; /* Increasing default font size */
+  color: black; /* Setting default font color to black */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rosybrown; /* Setting background color for the container */
+}
+
+.project-section {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: burlywood; /* Setting background color for the project sections */
+}
+
+.toggle-btn {
+  cursor: pointer;
+}
+
+.project-details {
+  margin-top: 10px;
+}
+
+.project-details img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.project-details a {
+  display: block;
+  margin-top: 10px;
+}

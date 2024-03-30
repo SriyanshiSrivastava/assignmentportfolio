@@ -1,0 +1,64 @@
+/* Resetting default margin for name */
+.name {
+    margin: 0;
+  }
+  
+  /* Setting background color for the whole page */
+  body {
+    background-color: rosybrown;
+    font-size: 1.2rem; /* Increasing default font size */
+  }
+  
+  /* Styles for the content */
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling the welcome section */
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling the intro section */
+  .intro-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Making sure images in the intro section are responsive */
+  .intro-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styling the quotes section */
+  .quotes-section {
+    text-align: center;
+    background-color: burlywood; /* Setting background color for the quotes section */
+    padding: 20px;
+  }
+  
+  /* Styling the displayed quote */
+  .quotes-section #quoteDisplay {
+    font-size: 2rem; /* Increasing font size for the displayed quote */
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the buttons in the quote navigation */
+  .quotes-section .quote-navigation button {
+    font-size: 1.2rem; /* Increasing font size for the buttons */
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .quotes-section .quote-navigation button:hover {
+    background-color: #0056b3;
+  }
+  

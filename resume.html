@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+  <link rel="stylesheet" href="resumestyle.css">
+</head>
+<body>
+
+    <div class="resume-section">
+      <h2 class="section-title" onclick="toggleSection('education')">Education</h2>
+      <div class="resume-item" id="education" style="display: none;">
+        <h3>04.2007 - 03.2019</h3>
+        <h3>High School Education</h3>
+        <p>St.Mary's Convent School</p>
+        <p>Pass Out - 2019</p>
+        <p>Collaborated with classmates on various team projects.</p>
+        <h3>04.2019 - 03.2021</h3>
+        <h3>Senior Secondary Education</h3>
+        <p>Glorious Academy</p>
+        <p>Pass Out - 2021</p>
+        <p>Actively engaged in a variety of academic and extracurricular activities.
+        Participated in numerous science fairs,
+        where I designed and presented projects on topics ranging from environmental
+        sustainability to emerging technologies.</p>
+        <h3>07.2021 - Present</h3>
+        <h3>Bachelor of Technology</h3>
+        <p>Banasthali Vidyapith</p>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h2 class="section-title" onclick="toggleSection('skills')">Skills</h2>
+      <div class="resume-item" id="skills" style="display: none;">
+        <ul class="skills-list">
+          <li>HTML5 & CSS3</li>
+          <li>Programming Language C</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>MySQL</li>
+          <li>Object Oriented Programming</li>
+          <li>MATLAB</li>
+          <li>Machine Learning Using MATLAB</li>
+        </ul>
+      </div>
+    </div>
+    <div class="resume-section">
+      <h2 class="section-title" onclick="toggleSection('interests')">Interests</h2>
+      <div class="resume-item" id="interests" style="display: none;">
+        <ul class="interests-list">
+          <li>Reading and Writing</li>
+          <li>Music</li>
+          <li>Languages</li>
+          <li>Outdoor activities</li>
+          <li>Travel</li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h2 class="section-title" onclick="toggleSection('certifications')">Certifications</h2>
+      <div class="resume-item" id="certifications" style="display: none;">
+        <div class="cert-img">
+          <img src="2116834_certificate3_page-0001.jpg" alt="Certificate 1">
+        </div>
+        <br>
+        <div class="cert-img">
+          <img src="2116834_ml_onramp_page-0001.jpg" alt="Certificate 2">
+        </div>
+        <br>
+        <div class="cert-img">
+          <img src="2116834_matlab_fundamentals_page-0001.jpg" alt="Certificate 2">
+        </div>
+        <br>
+        <div class="cert-img">
+          <img src="2116834_matlab_onramp_page-0001.jpg" alt="Certificate 2">
+        </div>
+      </div>
+    </div>
+
+  <script src="resume.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* Setting background color for the whole page */
+body {
+  background-color: rosybrown;
+  font-size: 1.2rem; /* Increasing default font size */
+  color: black; /* Setting default font color to black */
+}
+
+/* Styles for the header */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: burlywood; /* Setting background color for the header */
+}
+
+.name {
+  margin: 0;
+  text-decoration: none; /* Removing underline from the name */
+  color: black; /* Setting font color for the name to black */
+}
+
+.name:hover {
+  opacity: 0.8; /* Adding hover effect */
+}
+
+/* Styles for the navbar */
+.navbar {
+  background-color: papayawhip; /* Setting background color for the navbar */
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar ul li a.active {
+  background-color: #555;
+}
+
+/* Styles for the content */
+.content {
+  padding: 20px;
+  height: calc(100vh - 130px); /* Adjusted height for the iframe */
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro-section {
+  margin-bottom: 30px;
+}
+
+.intro-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.quotes-section {
+  text-align: center;
+}
+
+.quotes-section .quote {
+  margin-bottom: 10px;
+}
